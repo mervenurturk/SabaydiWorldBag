@@ -33,6 +33,7 @@ public class NumberTextWatcherForThousand implements TextWatcher {
     public void afterTextChanged(Editable s) {
         editText.removeTextChangedListener(this);
         try {
+            //commit
             String originalString = s.toString();
             long defaultValue;
             if (originalString.contains(".")) {

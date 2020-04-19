@@ -1,0 +1,2 @@
+include ':app', ':sabaydiworldbag'
+rootProject.name='SabaydiWorldBagExample'

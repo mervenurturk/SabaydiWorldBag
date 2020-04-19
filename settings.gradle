@@ -1,1 +1,2 @@
-include ':app', ':sabaydiworldbag'
+include ':app'
+include ':sabaydiworldbag'
